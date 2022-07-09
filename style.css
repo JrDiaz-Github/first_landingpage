@@ -1,0 +1,128 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.hero_heading {
+    display: flex;
+    background-color: #1f2937;
+    width:100vw;
+    min-height: 5vh;
+    margin: 0;;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 20px;
+    color: #f9faf8;
+    padding-left: 24px;
+}
+
+.headerlinks { 
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #e5e7eb;  
+}
+
+.hlink {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    background-color: #1f2937;
+    width: 100vw;
+    min-height: 20vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-prompt {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 24px;
+    gap: 16px;
+}
+
+.header-illust {
+    display: inline;
+    max-height: 300px;
+    max-width: 300px;
+    padding: 24px;
+    flex: 1; flex-basis: auto;
+}
+
+#hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+#hero-body {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+#hero-button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 6px;
+    color: #e5e7eb;
+    width: 100px;
+    height: 35px;
+    margin: 8px;
+    float: left;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-folder {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    gap: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+    height: 150px;
+    width: 150px;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 16px;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    min-height: 20vh;
+    width: 100vw;
+    text-align: center;
+}
