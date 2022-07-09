@@ -120,9 +120,51 @@ body {
 }
 
 .quotebox {
+    display: flex;
     background-color: #e5e7eb;
     color: #1f2937;
     min-height: 20vh;
     width: 100vw;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#leadquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px;
+}
+
+.actionable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 10vh;
+    width: 80vh;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 16px;
+}
+
+#action_button {
+    display: inline;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    color: #e5e7eb;
+    width: 100px;
+    height: 35px;
+    margin: 8px;
 }
